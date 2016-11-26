@@ -16,6 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    
+    NSArray *arr =[NSArray new];
+    arr = [NSArray arrayWithObjects:@"gfxtrhs", nil];
+    
+    NSLog(@"%@",arr);
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
